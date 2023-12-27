@@ -1,1 +1,1 @@
-# Evoluce_Pythonu_priklady
+# Evoluce Pythonu: příklady
