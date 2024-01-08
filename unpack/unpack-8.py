@@ -1,4 +1,5 @@
-# Zavolání funkce s rozbalením slovníku operací unpack
+# Operátor "unpack" v Pythonu:
+# - zavolání funkce s rozbalením slovníku operací unpack
 
 
 def add3(x, y, z):
