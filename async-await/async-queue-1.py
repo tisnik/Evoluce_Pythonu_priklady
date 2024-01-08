@@ -2,7 +2,7 @@
 # - příprava dat pro úlohy
 # - komunikace mezi úlohami přes frontu
 # - spuštění asynchronních úloh
-# - bez čekání na dokončení (výsledky)
+# - bez čekání na dokončení (zpětné přečtení výsledků)
 
 import asyncio
 
