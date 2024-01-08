@@ -1,6 +1,6 @@
 # Využití standardní knihovny asyncio:
 # - vytvoření dvou asynchronních úloh
-# - spuštění úloh
+# - spuštění obou těchto úloh
 # - čekání na dokončení obou úloh
 # - doba měření doby trvání běhu obou úloh
 
