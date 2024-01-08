@@ -1,5 +1,6 @@
 # Skupiny výjimek v jazyku Python:
-# - konstrukce skupiny výjimek
+# - vytvoření (konstrukce) skupiny výjimek
+# - vnořené skupiny výjimek
 # - tisk skupiny výjimek
 
 import traceback
