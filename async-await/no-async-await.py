@@ -1,6 +1,6 @@
 # Synchronní běh:
 # - vytvoření dvou ynchronních úloh
-# - spuštění úloh (jedna po druhé)
+# - spuštění dvou úloh (jedna po druhé)
 # - čekání na dokončení obou úloh
 # - doba měření doby trvání běhu obou úloh
 
