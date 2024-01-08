@@ -1,4 +1,5 @@
-# Výpis typů hodnot vytvářených s využitím operace unpack
+# Operátor "unpack" v Pythonu:
+# - výpis typů hodnot vytvářených s využitím operace unpack
 
 # n-tice, seznam a množina
 x = *range(5), 5
