@@ -1,4 +1,5 @@
-# Výpis hodnot vytvářených s využitím operace unpack
+# Operátor "unpack" v Pythonu:
+# - výpis hodnot vytvářených s využitím operace unpack
 
 d = {"x": 1,
      "y": 2,
