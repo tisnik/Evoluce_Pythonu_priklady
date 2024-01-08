@@ -1,7 +1,7 @@
 # Využití standardní knihovny asyncio:
 # - vytvoření asynchronní úlohy
-# - spuštění úlohy
-# - čekání na dokončení úlohy
+# - spuštění této úlohy
+# - čekání na dokončení této úlohy
 # - prozatím nefunkční řešení kvůli způsobu volání main!
 
 import asyncio
@@ -15,6 +15,7 @@ async def task():
     print("task finished")
 
 
+# běžná funkce
 def main():
     # jedna z možnosti spuštění úlohy
     task1 = asyncio.create_task(task())
