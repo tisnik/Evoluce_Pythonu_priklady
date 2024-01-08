@@ -1,4 +1,5 @@
-# Využití operace "unpack" při volání funkce se dvěma parametry
+# Operátor "unpack" v Pythonu:
+# - využití operace "unpack" při volání funkce se dvěma parametry
 
 
 def add(x, y):
