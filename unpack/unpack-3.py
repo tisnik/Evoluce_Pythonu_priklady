@@ -1,4 +1,5 @@
-# Využití operace "unpack" při volání funkce s pěti argumenty
+# Operátor "unpack" v Pythonu:
+# - využití operace "unpack" při volání funkce s pěti argumenty
 
 
 def add5(a, b, c, d, e):
