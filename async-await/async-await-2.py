@@ -1,7 +1,7 @@
 # Využití standardní knihovny asyncio:
 # - vytvoření asynchronní úlohy
-# - spuštění úlohy
-# - čekání na dokončení úlohy
+# - spuštění této úlohy
+# - čekání na dokončení této úlohy
 # - korektní volání funkce main
 
 import asyncio
