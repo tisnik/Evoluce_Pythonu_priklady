@@ -1,4 +1,4 @@
-# Typový systém Pythonu.
+# Typový systém Pythonu:
 # - na funkci add() je navázán parametr funkce dummyAdder()
 
 
