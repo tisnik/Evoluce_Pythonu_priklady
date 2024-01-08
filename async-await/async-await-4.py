@@ -1,6 +1,6 @@
 # Využití standardní knihovny asyncio:
 # - vytvoření tří asynchronních úloh
-# - spuštění úloh
+# - spuštění všech tří úloh
 # - čekání na dokončení všech tří úloh
 # - tisk výsledků získaných z úloh
 
