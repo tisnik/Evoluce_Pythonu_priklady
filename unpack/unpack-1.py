@@ -1,4 +1,6 @@
-# Explicitní předání dvou parametrů do funkce add
+# Operátor "unpack" v Pythonu:
+# - explicitní předání dvou parametrů do funkce add
+# - (unpack se zde prozatím nepoužívá)
 
 
 def add(x, y):
