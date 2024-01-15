@@ -1,5 +1,5 @@
 # Transformace funkce bez využití dekorátorů:
-# - tisk parametrů původní funkce
+# - tisk argumentů původní funkce
 # - tisk návratové hodnoty původní funkce
 
 def print_params_and_return_val(function):
@@ -7,7 +7,7 @@ def print_params_and_return_val(function):
 
     def wrapper(x, y):
         """Nová funkce volající předanou funkci."""
-        print(f"Parameters: x={x} y={y}")
+        print(f"Arguments: x={x} y={y}")
         value = function(x, y)
         print(f"Computed value: {value}")
         return value
