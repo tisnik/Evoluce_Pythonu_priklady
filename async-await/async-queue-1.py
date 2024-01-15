@@ -7,14 +7,14 @@
 import asyncio
 
 
-# vykonání úloh, jejichž parametry jsou přečteny z fronty
+# vykonání úloh, jejichž argumenty jsou přečteny z fronty
 async def task(name, queue):
     print(f"\tCoroutine #{name} started")
     while not queue.empty():
         param = await queue.get()
-        print(f"\t\tTask with parameter {param : 5.2f} started")
+        print(f"\t\tTask with argument {param : 5.2f} started")
         await asyncio.sleep(5)
-        print(f"\t\tTask with parameter {param : 5.2f} finished")
+        print(f"\t\tTask with argument {param : 5.2f} finished")
     print(f"\tCoroutine #{name} finished")
 
 
