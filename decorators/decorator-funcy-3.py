@@ -1,5 +1,5 @@
 # Transformace funkce s využitím dekorátorů:
-# - tisk parametrů původní funkce
+# - tisk argumentů původní funkce
 # - tisk návratové hodnoty původní funkce
 # - zkrácený zápis založený na dekorátoru @decorator
 
@@ -11,7 +11,7 @@ def print_params_and_return_val(function):
     x = function.a
     y = function.b
 
-    print(f"Parameters: x={x} y={y}")
+    print(f"Arguments: x={x} y={y}")
     value = function()
     print(f"Computed value: {value}")
     return value
