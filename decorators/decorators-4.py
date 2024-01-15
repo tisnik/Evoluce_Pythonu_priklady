@@ -8,7 +8,7 @@ def print_operation_params_and_return_val(name):
         """Transformace předané funkce."""
         def wrapper(x, y):
             """Nová funkce volající předanou funkci."""
-            print(f"Parameters for computing {name}: x={x} y={y}")
+            print(f"Arguments for computing {name}: x={x} y={y}")
             value = fn(x, y)
             print(f"Computed value: {value}")
             return value
