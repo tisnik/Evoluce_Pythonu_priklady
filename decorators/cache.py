@@ -1,8 +1,8 @@
 # Rekurzivní výpočet Fibonacciho posloupnosti:
 # - verze s cache
 
-from time import perf_counter
 from functools import cache
+from time import perf_counter
 
 
 @cache
