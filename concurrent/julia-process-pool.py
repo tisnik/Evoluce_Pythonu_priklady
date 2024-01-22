@@ -4,10 +4,10 @@
 # - využití vysokoúrovňového přístupu: ProcessPoolExecutor
 
 from concurrent.futures import ProcessPoolExecutor
-from PIL import Image
 from time import perf_counter
 
 from palette_mandmap import palette
+from PIL import Image
 
 IMAGE_WIDTH = 1024
 IMAGE_HEIGHT = 1024
