@@ -4,7 +4,7 @@
 # - čekání na dokončení obou úloh
 # - doba měření doby trvání běhu obou úloh
 
-from time import sleep, perf_counter
+from time import perf_counter, sleep
 
 
 # běžná synchronní funkce
