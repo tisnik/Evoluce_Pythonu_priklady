@@ -2,8 +2,8 @@
 # - verze s LRU cache
 # - výpis informací o využití LRU cache
 
-from time import perf_counter
 from functools import lru_cache
+from time import perf_counter
 
 
 @lru_cache
