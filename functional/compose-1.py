@@ -4,7 +4,6 @@
 
 from funcy import compose
 
-
 # kompozice dvou standardních funkcí
 composed = compose(len, str)
 
