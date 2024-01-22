@@ -5,6 +5,7 @@
 
 from funcy import decorator
 
+
 @decorator
 def print_params_and_return_val(function):
     """Transformace předané funkce."""
