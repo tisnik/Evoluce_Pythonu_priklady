@@ -1,9 +1,7 @@
 # Generické datové typy v Pythonu
 # - typové parametry u programátorem vytvořené kolekce
 
-from typing import TypeVar, Generic
-from typing import List
-
+from typing import Generic, List, TypeVar
 
 T = TypeVar('T')
 
