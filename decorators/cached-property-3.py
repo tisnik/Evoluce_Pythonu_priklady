@@ -5,8 +5,8 @@
 # - pokud se nečte tato vlastnost, výpočet vůbec neproběhne
 # - opakované čtení vlastnosti již vrátí výsledek z vyrovnávací paměti
 
-from time import perf_counter
 from functools import cached_property, lru_cache
+from time import perf_counter
 
 
 class FibonacciNumber:
