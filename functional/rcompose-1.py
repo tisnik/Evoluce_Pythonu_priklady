@@ -4,7 +4,6 @@
 
 from funcy import rcompose
 
-
 # kompozice dvou standardních funkcí
 composed = rcompose(str, len)
 
