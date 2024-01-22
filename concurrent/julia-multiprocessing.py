@@ -3,11 +3,11 @@
 # - každý výpočet je spuštěn v samostatném procesu
 # - explicitní vytvoření procesů, jejich spuštění a čekání na dokončení
 
-from PIL import Image
-from time import perf_counter
 from multiprocessing import Process
+from time import perf_counter
 
 from palette_mandmap import palette
+from PIL import Image
 
 IMAGE_WIDTH = 1024
 IMAGE_HEIGHT = 1024
