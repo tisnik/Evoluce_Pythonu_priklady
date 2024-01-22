@@ -5,7 +5,6 @@
 # funkci reduce musíme explicitně naimportovat
 from functools import reduce
 
-
 # výpočet faktoriálu, interně založený na funkci reduce
 factorial = lambda n: reduce(lambda a, b: a*b, range(1, n+1), 1)
 
