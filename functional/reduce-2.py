@@ -5,7 +5,6 @@
 # funkci reduce musíme explicitně naimportovat
 from functools import reduce
 
-
 # sekvence numerických hodnot
 x = range(1, 11)
 print(x)
