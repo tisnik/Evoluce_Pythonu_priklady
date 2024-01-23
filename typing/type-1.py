@@ -3,7 +3,6 @@
 
 from typing import List
 
-
 # definice nových typů
 type Names = List[str]
 type Scores = List[int]
