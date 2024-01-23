@@ -1,6 +1,6 @@
 # Typové anotace a nástroj Mypy:
 # - funkce bez uvedení typových anotací
-# - zavolání této funkce pro různé typy parametrů
+# - zavolání této funkce pro různé typy argumentů
 
 
 def add(a, b):
@@ -8,7 +8,7 @@ def add(a, b):
     return a+b
 
 
-# zavolání funkce add s parametry různých typů
+# zavolání funkce add s argumenty různých typů
 print(add(1, 2))
 print(add(1.1, 2.2))
 print(add(1+1j, 2+2j))
