@@ -6,7 +6,6 @@
 from typing import Callable
 
 
-
 def printIsPositive(condition:Callable[[float], bool]) -> None:
     if condition(5):
         print("Positive")
