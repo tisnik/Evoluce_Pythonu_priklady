@@ -2,7 +2,7 @@
 # - definice slovníku
 # - specifikace typu klíčů i typu hodnot
 
-from typing import Dict, Any
+from typing import Any, Dict
 
 d:Dict[Any, Any] = {}
 
