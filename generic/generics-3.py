@@ -2,7 +2,7 @@
 # - definice funkce se dvěma parametry obecně odlišného typu
 # - návratovou hodnotou je dvojice prvků odlišného typu
 
-from typing import TypeVar, Tuple
+from typing import Tuple, TypeVar
 
 T = TypeVar('T')
 U = TypeVar('U')
