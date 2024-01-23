@@ -4,8 +4,7 @@
 # - zavolání této funkce pro různé typy argumentů
 
 
-from typing import overload
-from typing import Union
+from typing import Union, overload
 
 
 @overload
