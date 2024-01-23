@@ -1,8 +1,8 @@
 # Praktická ukázka pattern matchingu:
 # - převod barvy z různých reprezentací do barvového prostoru RGB
 
-from enum import Enum
 from dataclasses import dataclass
+from enum import Enum
 
 
 class BasicColor(Enum):
