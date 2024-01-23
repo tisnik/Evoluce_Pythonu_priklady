@@ -2,7 +2,7 @@
 # - definice funkce se dvěma parametry stejného typu
 # - návratovou hodnotou je dvojice prvků stejného typu
 
-from typing import TypeVar, Tuple
+from typing import Tuple, TypeVar
 
 T = TypeVar('T')
 
