@@ -1,8 +1,16 @@
 [tool.ruff]
-select = ["W", "COM"]
 
-# E501 rule checks for maximum line length
-ignore = ["E501"]
+select = ["E", "F", "W", "C", "S", "I", "TCH"]
 
+# we need to check 'mood' of all docstrings, this needs to be enabled explicitly
+extend-select = ["D401"]
+
+ignore = []
+
+target-version = "py311"
+pydocstyle.convention = "google"
 line-length = 100
 
+[tool.coverage.report]
+# unit tests fails if the total coverage measurement is under this threshold value
+fail_under = 50
