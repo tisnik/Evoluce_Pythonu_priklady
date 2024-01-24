@@ -1,8 +1,8 @@
 # Multiprocesing a multithreading v Pythonu:
 # - spouštění úloh ve vláknech s využitím třídy ThreadPoolExecutor
 
-from concurrent.futures.thread import ThreadPoolExecutor
 import time
+from concurrent.futures.thread import ThreadPoolExecutor
 
 
 def worker(threadName, delay, n):
