@@ -3,8 +3,8 @@
 # - komunikace mezi procesy s obousměrné fronty
 
 
-from multiprocessing import Process, Pipe
 import time
+from multiprocessing import Pipe, Process
 
 
 def worker(name, conn):
