@@ -13,8 +13,10 @@ async def download(name, queue, results):
             async with session.get(url) as response:
                 t = await response.text()
                 t2 = time.time()
-                print(f"Task named {name} downloaded {len(t)} characters in {t2-t1} seconds")
-                await results.put(t2-t1)
+                print(
+                    f"Task named {name} downloaded {len(t)} characters in {t2-t1} seconds"
+                )
+                await results.put(t2 - t1)
             print(f"Task named {name} finished")
 
 
@@ -39,9 +41,10 @@ async def main():
         await queue.put(url)
 
     await asyncio.gather(
-            asyncio.create_task(download(1, queue, results)),
-            asyncio.create_task(download(2, queue, results)),
-            asyncio.create_task(download(3, queue, results)))
+        asyncio.create_task(download(1, queue, results)),
+        asyncio.create_task(download(2, queue, results)),
+        asyncio.create_task(download(3, queue, results)),
+    )
 
     process_time = 0
     while not results.empty():
@@ -51,5 +54,6 @@ async def main():
 
     t2 = time.time()
     print(f"Total time:   {t2-t1} seconds")
+
 
 asyncio.run(main())
