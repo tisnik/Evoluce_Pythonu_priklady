@@ -49,22 +49,66 @@ def recalc_fractal(filename, xmin, ymin, xmax, ymax, cx, cy, maxiter=1000):
 
     # výpočet času výpočtu
     t2 = perf_counter()
-    print("Done", filename, t2-t1)
+    print("Done", filename, t2 - t1)
 
 
 t1 = perf_counter()
 
 # spuštění výpočtů ve vláknech
 with ThreadPoolExecutor(max_workers=8) as executor:
-    executor.submit(recalc_fractal, "spiral_1.png", -1.5, -1.5, 1.5, 1.5, -0.769824999999999998320, -0.109270000000000000000, 1000)
-    executor.submit(recalc_fractal, "spiral_2.png", -1.5, -1.5, 1.5, 1.5, -0.171119200000000013445, 0.657309400000000000000, 1000)
-    executor.submit(recalc_fractal, "spiral_3.png", -1.5, -1.5, 1.5, 1.5, -0.207190825000000012496, 0.676656624999999999983, 1000)
-    executor.submit(recalc_fractal, "spiral_4.png", -1.5, -1.5, 1.5, 1.5, -0.540623850000000003876, 0.523798050000000000019, 1000)
+    executor.submit(
+        recalc_fractal,
+        "spiral_1.png",
+        -1.5,
+        -1.5,
+        1.5,
+        1.5,
+        -0.769824999999999998320,
+        -0.109270000000000000000,
+        1000,
+    )
+    executor.submit(
+        recalc_fractal,
+        "spiral_2.png",
+        -1.5,
+        -1.5,
+        1.5,
+        1.5,
+        -0.171119200000000013445,
+        0.657309400000000000000,
+        1000,
+    )
+    executor.submit(
+        recalc_fractal,
+        "spiral_3.png",
+        -1.5,
+        -1.5,
+        1.5,
+        1.5,
+        -0.207190825000000012496,
+        0.676656624999999999983,
+        1000,
+    )
+    executor.submit(
+        recalc_fractal,
+        "spiral_4.png",
+        -1.5,
+        -1.5,
+        1.5,
+        1.5,
+        -0.540623850000000003876,
+        0.523798050000000000019,
+        1000,
+    )
     executor.submit(recalc_fractal, "julia1.png", -1.5, -1.5, 1.5, 1.5, 0.0, 1.0, 1000)
     executor.submit(recalc_fractal, "julia2.png", -1.5, -1.5, 1.5, 1.5, -1.0, 0.0, 500)
-    executor.submit(recalc_fractal, "julia3.png", -1.5, -1.5, 1.5, 1.5, 0.285, 0.01, 1000)
+    executor.submit(
+        recalc_fractal, "julia3.png", -1.5, -1.5, 1.5, 1.5, 0.285, 0.01, 1000
+    )
     executor.submit(recalc_fractal, "julia4.png", -1.5, -1.5, 1.5, 1.5, -0.4, 0.6, 1000)
-    executor.submit(recalc_fractal, "julia5.png", -1.5, -1.5, 1.5, 1.5, -0.835, -0.2321, 1000)
+    executor.submit(
+        recalc_fractal, "julia5.png", -1.5, -1.5, 1.5, 1.5, -0.835, -0.2321, 1000
+    )
     executor.submit(recalc_fractal, "julia6.png", -1.5, -1.5, 1.5, 1.5, 0.4, 0.4, 1000)
 
 t2 = perf_counter()
