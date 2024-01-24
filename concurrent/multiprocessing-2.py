@@ -2,8 +2,8 @@
 # - spuštění více úloh v nových procesech
 # - čekání na dokončení procesů
 
-from multiprocessing import Process
 import time
+from multiprocessing import Process
 
 
 def worker(name):
