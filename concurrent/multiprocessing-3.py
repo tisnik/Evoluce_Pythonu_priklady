@@ -3,8 +3,8 @@
 # - komunikace mezi procesy s využitím fronty
 
 
-from multiprocessing import Process, Queue
 import time
+from multiprocessing import Process, Queue
 
 
 def worker(name, q):
