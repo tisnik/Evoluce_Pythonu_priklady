@@ -14,7 +14,7 @@ async def download(name, queue, results):
                 t = await response.text()
                 t2 = time.time()
                 print(
-                    f"Task named {name} downloaded {len(t)} characters in {t2-t1} seconds"
+                    f"Task named {name} downloaded {len(t)} characters in {t2-t1} seconds",
                 )
                 await results.put(t2 - t1)
             print(f"Task named {name} finished")
