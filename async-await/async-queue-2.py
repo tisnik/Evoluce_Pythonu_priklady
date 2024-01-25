@@ -23,7 +23,7 @@ async def main():
     queue = asyncio.Queue()
 
     for i in range(10):
-        await queue.put(1/(i+1))
+        await queue.put(1 / (i + 1))
 
     for n in range(1, 11):
         print(f"Starting coroutine #{n}")
