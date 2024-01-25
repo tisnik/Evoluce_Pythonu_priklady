@@ -5,10 +5,10 @@ import time
 from concurrent.futures import ProcessPoolExecutor
 
 
-def worker(processName, delay, n):
+def worker(process_name, delay, n):
     for counter in range(1, n + 1):
         time.sleep(delay)
-        print("{}: {}/{} - {}".format(processName, counter, n, time.ctime(time.time())))
+        print("{}: {}/{} - {}".format(process_name, counter, n, time.ctime(time.time())))
 
 
 # spuštění tří úloh, každé v samostatném procesu
