@@ -7,12 +7,12 @@ import time
 
 
 def worker():
-    threadName = threading.current_thread().name
+    thread_name = threading.current_thread().name
     delay = 1
     n = 10
     for counter in range(1, n + 1):
         time.sleep(delay)
-        print("{}: {}/{} - {}".format(threadName, counter, n, time.ctime(time.time())))
+        print("{}: {}/{} - {}".format(thread_name, counter, n, time.ctime(time.time())))
 
 
 # vytvoření a spuštění trojice vláken
