@@ -29,10 +29,10 @@ def A(m, n):
 
 
 # transformace (obalení) funkce A
-wrapped_A = timer(A)
+wrapped_a = timer(A)
 
-print(wrapped_A(1, 1))
-print(wrapped_A(2, 2))
-print(wrapped_A(3, 3))
-print(wrapped_A(3, 4))
-print(wrapped_A(3, 6))
+print(wrapped_a(1, 1))
+print(wrapped_a(2, 2))
+print(wrapped_a(3, 3))
+print(wrapped_a(3, 4))
+print(wrapped_a(3, 6))
