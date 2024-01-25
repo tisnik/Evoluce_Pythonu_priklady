@@ -23,7 +23,7 @@ async def main():
     queue = asyncio.Queue()
 
     for i in range(10):
-        await queue.put(1/(i+1))
+        await queue.put(1 / (i + 1))
 
     # spuštění a čekání na dokončení úloh
     await asyncio.gather(
