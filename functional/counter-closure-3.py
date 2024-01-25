@@ -2,7 +2,7 @@
 # - tato varianta je korektní v Pythonu 3
 
 
-def createCounter():
+def create_counter():
     # proměnná navázaná na funkci čítače
     counter = 0
 
@@ -21,8 +21,8 @@ def createCounter():
 # spuštění testů čítačů
 def main():
     # vytvoření dvojice nezávislých čítačů
-    counter1 = createCounter()
-    counter2 = createCounter()
+    counter1 = create_counter()
+    counter2 = create_counter()
 
     # použití čítačů - každé jejich zavolání vrátí hodnotu o jedničku vyšší
     for i in range(1,11):
