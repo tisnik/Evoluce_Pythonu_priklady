@@ -32,10 +32,10 @@ print()
 
 # částečná aplikace - výsledkem bude funkce,
 # do níž již byly dosazeny dva parametry.
-doubleDoubler = partial(mul, 2, 2)
+double_doubler = partial(mul, 2, 2)
 
 
 # korektní způsob volání nové funkce získané transformací
 # - předáváme jí jeden parametr
 for i in range(11):
-    print(i, doubleDoubler(i, 10))
+    print(i, double_doubler(i, 10))
