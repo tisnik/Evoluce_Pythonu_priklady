@@ -97,68 +97,68 @@ def to_rgb(color):
 
 print("Grayscale:")
 
-grayColor1 = Gray(0)
-print(to_rgb(grayColor1))
+gray_color1 = Gray(0)
+print(to_rgb(gray_color1))
 
-grayColor2 = Gray(255)
-print(to_rgb(grayColor2))
+gray_color2 = Gray(255)
+print(to_rgb(gray_color2))
 
 print("\nRGB:")
 
-rgbColor1 = RGB(0, 0, 0)
-print(to_rgb(rgbColor1))
+rgb_color1 = RGB(0, 0, 0)
+print(to_rgb(rgb_color1))
 
-rgbColor2 = RGB(0, 255, 0)
-print(to_rgb(rgbColor2))
+rgb_color2 = RGB(0, 255, 0)
+print(to_rgb(rgb_color2))
 
-rgbColor3 = RGB(255, 255, 255)
-print(to_rgb(rgbColor3))
+rgb_color3 = RGB(255, 255, 255)
+print(to_rgb(rgb_color3))
 
 print("\nHSV:")
 
-hsvColor1 = HSV(0.0, 0.0, 1.0)
-print(to_rgb(hsvColor1))
+hsv_color1 = HSV(0.0, 0.0, 1.0)
+print(to_rgb(hsv_color1))
 
-hsvColor2 = HSV(0.0, 0.0, 0.5)
-print(to_rgb(hsvColor2))
+hsv_color2 = HSV(0.0, 0.0, 0.5)
+print(to_rgb(hsv_color2))
 
-hsvColor3 = HSV(0.0, 1.0, 1.0)
-print(to_rgb(hsvColor3))
+hsv_color3 = HSV(0.0, 1.0, 1.0)
+print(to_rgb(hsv_color3))
 
-hsvColor4 = HSV(0.3333, 1.0, 1.0)
-print(to_rgb(hsvColor4))
+hsv_color4 = HSV(0.3333, 1.0, 1.0)
+print(to_rgb(hsv_color4))
 
-hsvColor5 = HSV(0.6666, 1.0, 1.0)
-print(to_rgb(hsvColor5))
+hsv_color5 = HSV(0.6666, 1.0, 1.0)
+print(to_rgb(hsv_color5))
 
-hsvColor6 = HSV(1.0, 1.0, 1.0)
-print(to_rgb(hsvColor6))
+hsv_color6 = HSV(1.0, 1.0, 1.0)
+print(to_rgb(hsv_color6))
 
-hsvColor7 = HSV(1.0, 0.5, 0.5)
-print(to_rgb(hsvColor7))
+hsv_color7 = HSV(1.0, 0.5, 0.5)
+print(to_rgb(hsv_color7))
 
 print("\nBasic colors:")
 
-basicColor1 = BasicColor.BLACK
-print(to_rgb(basicColor1))
+basic_color1 = BasicColor.BLACK
+print(to_rgb(basic_color1))
 
-basicColor2 = BasicColor.RED
-print(to_rgb(basicColor2))
+basic_color2 = BasicColor.RED
+print(to_rgb(basic_color2))
 
-basicColor3 = BasicColor.GREEN
-print(to_rgb(basicColor3))
+basic_color3 = BasicColor.GREEN
+print(to_rgb(basic_color3))
 
-basicColor4 = BasicColor.BLUE
-print(to_rgb(basicColor4))
+basic_color4 = BasicColor.BLUE
+print(to_rgb(basic_color4))
 
-basicColor5 = BasicColor.YELLOW
-print(to_rgb(basicColor5))
+basic_color5 = BasicColor.YELLOW
+print(to_rgb(basic_color5))
 
-basicColor6 = BasicColor.MAGENTA
-print(to_rgb(basicColor6))
+basic_color6 = BasicColor.MAGENTA
+print(to_rgb(basic_color6))
 
-basicColor7 = BasicColor.CYAN
-print(to_rgb(basicColor7))
+basic_color7 = BasicColor.CYAN
+print(to_rgb(basic_color7))
 
-basicColor8 = BasicColor.WHITE
-print(to_rgb(basicColor8))
+basic_color8 = BasicColor.WHITE
+print(to_rgb(basic_color8))
