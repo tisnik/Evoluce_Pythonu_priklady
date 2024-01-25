@@ -28,7 +28,7 @@ async def main():
         await queue.put(url)
 
     await asyncio.gather(
-        asyncio.create_task(download(1, queue)), asyncio.create_task(download(2, queue))
+        asyncio.create_task(download(1, queue)), asyncio.create_task(download(2, queue)),
     )
 
 
