@@ -5,10 +5,10 @@ import time
 from concurrent.futures.thread import ThreadPoolExecutor
 
 
-def worker(threadName, delay, n):
+def worker(thread_name, delay, n):
     for counter in range(1, n + 1):
         time.sleep(delay)
-        print("{}: {}/{} - {}".format(threadName, counter, n, time.ctime(time.time())))
+        print("{}: {}/{} - {}".format(thread_name, counter, n, time.ctime(time.time())))
 
 
 # spuštění tří úloh, každé v samostatném vlákně
