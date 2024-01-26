@@ -8,6 +8,7 @@ def foo():
 
     def bar():
         print(message)
+
     return bar
 
 
