@@ -5,10 +5,10 @@
 def get_operator(symbol):
     """Na základě předaného symbolu nalezne a vrátí příslušnou funkci."""
     operators = {
-            "+": add,
-            "*": mul,
-            "<": less_than,
-            ">": greater_than,
+        "+": add,
+        "*": mul,
+        "<": less_than,
+        ">": greater_than,
     }
     return operators[symbol]
 
