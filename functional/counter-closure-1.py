@@ -15,7 +15,6 @@ def create_counter():
     return next
 
 
-
 # spuštění testů čítačů
 def main():
     # vytvoření dvojice nezávislých čítačů
@@ -23,7 +22,7 @@ def main():
     counter2 = create_counter()
 
     # použití čítačů - každé jejich zavolání vrátí hodnotu o jedničku vyšší
-    for i in range(1,11):
+    for i in range(1, 11):
         result1 = counter1()
         result2 = counter2()
         print("Iteration #%d" % i)
