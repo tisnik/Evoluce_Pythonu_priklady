@@ -1,6 +1,7 @@
 # Transformace funkce bez využití dekorátorů:
 # - obalení funkce voláním dalších příkazů
 
+
 def wrap_function(function):
     """Transformace předané funkce."""
 
