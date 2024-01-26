@@ -1,6 +1,7 @@
 # Transformace funkce s využitím dvojice dekorátorů:
 # - vliv pořadí dekorátorů na výsledek
 
+
 def simple_dashes(function):
     """Transformace předané funkce."""
 
