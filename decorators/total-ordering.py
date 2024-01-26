@@ -14,22 +14,19 @@ class Version:
 
     def _is_valid_version(self, other):
         """Test, zda předaný objekt obsahuje zmíněné atributy."""
-        return (hasattr(other, "_major") and
-                hasattr(other, "_minor"))
+        return hasattr(other, "_major") and hasattr(other, "_minor")
 
     def __eq__(self, other):
         """Metoda implementující operátor ==."""
         if not self._is_valid_version(other):
             return NotImplemented
-        return (self._major, self._minor) == \
-               (other._major, other._minor)
+        return (self._major, self._minor) == (other._major, other._minor)
 
     def __lt__(self, other):
         """Metoda implementující operátor <."""
         if not self._is_valid_version(other):
             return NotImplemented
-        return (self._major, self._minor) < \
-               (other._major, other._minor)
+        return (self._major, self._minor) < (other._major, other._minor)
 
     def __str__(self):
         """Textová reprezentace objektu."""
