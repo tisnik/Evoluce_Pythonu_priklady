@@ -8,7 +8,7 @@ def fib(n):
     """Rekurzivní výpočet Fibonacciho posloupnosti."""
     if n < 2:
         return n
-    return fib(n-1) + fib(n-2)
+    return fib(n - 1) + fib(n - 2)
 
 
 max_n = 40
