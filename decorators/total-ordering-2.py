@@ -15,23 +15,31 @@ class Version:
 
     def _is_valid_version(self, other):
         """Test, zda předaný objekt obsahuje zmíněné atributy."""
-        return (hasattr(other, "_major") and
-                hasattr(other, "_minor") and
-                hasattr(other, "_patch"))
+        return (
+            hasattr(other, "_major")
+            and hasattr(other, "_minor")
+            and hasattr(other, "_patch")
+        )
 
     def __eq__(self, other):
         """Metoda implementující operátor ==."""
         if not self._is_valid_version(other):
             return NotImplemented
-        return (self._major, self._minor, self._patch) == \
-               (other._major, other._minor, other._patch)
+        return (self._major, self._minor, self._patch) == (
+            other._major,
+            other._minor,
+            other._patch,
+        )
 
     def __lt__(self, other):
         """Metoda implementující operátor <."""
         if not self._is_valid_version(other):
             return NotImplemented
-        return (self._major, self._minor, self._patch) < \
-               (other._major, other._minor, other._patch)
+        return (self._major, self._minor, self._patch) < (
+            other._major,
+            other._minor,
+            other._patch,
+        )
 
     def __str__(self):
         """Textová reprezentace objektu."""
