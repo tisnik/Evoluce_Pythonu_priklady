@@ -5,9 +5,9 @@
 data = range(0, 11)
 
 # získat pouze liché hodnoty ze sekvence
-filtered = [value for value in data if value %2 == 1]
+filtered = [value for value in data if value % 2 == 1]
 print(filtered)
 
 # získat pouze sudé hodnoty ze sekvence
-filtered = [value for value in data if value %2 == 0]
+filtered = [value for value in data if value % 2 == 0]
 print(filtered)
