@@ -103,11 +103,27 @@ with ProcessPoolExecutor(max_workers=8) as executor:
     executor.submit(recalc_fractal, "julia1.png", -1.5, -1.5, 1.5, 1.5, 0.0, 1.0, 1000)
     executor.submit(recalc_fractal, "julia2.png", -1.5, -1.5, 1.5, 1.5, -1.0, 0.0, 500)
     executor.submit(
-        recalc_fractal, "julia3.png", -1.5, -1.5, 1.5, 1.5, 0.285, 0.01, 1000,
+        recalc_fractal,
+        "julia3.png",
+        -1.5,
+        -1.5,
+        1.5,
+        1.5,
+        0.285,
+        0.01,
+        1000,
     )
     executor.submit(recalc_fractal, "julia4.png", -1.5, -1.5, 1.5, 1.5, -0.4, 0.6, 1000)
     executor.submit(
-        recalc_fractal, "julia5.png", -1.5, -1.5, 1.5, 1.5, -0.835, -0.2321, 1000,
+        recalc_fractal,
+        "julia5.png",
+        -1.5,
+        -1.5,
+        1.5,
+        1.5,
+        -0.835,
+        -0.2321,
+        1000,
     )
     executor.submit(recalc_fractal, "julia6.png", -1.5, -1.5, 1.5, 1.5, 0.4, 0.4, 1000)
 
