@@ -3,6 +3,7 @@
 # - tisk argumentů původní funkce
 # - tisk návratové hodnoty původní funkce
 
+
 def print_operation_params_and_return_val(function, name):
     """Transformace předané funkce."""
 
@@ -18,11 +19,11 @@ def print_operation_params_and_return_val(function, name):
 
 
 def add(a, b):
-    return a+b
+    return a + b
 
 
 def div(a, b):
-    return a/b
+    return a / b
 
 
 # transformace (obalení) funkce add
