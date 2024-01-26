@@ -108,23 +108,28 @@ t4 = Thread(
     ),
 )
 t5 = Thread(
-    target=recalc_fractal, args=("julia1.png", -1.5, -1.5, 1.5, 1.5, 0.0, 1.0, 1000),
+    target=recalc_fractal,
+    args=("julia1.png", -1.5, -1.5, 1.5, 1.5, 0.0, 1.0, 1000),
 )
 t6 = Thread(
-    target=recalc_fractal, args=("julia2.png", -1.5, -1.5, 1.5, 1.5, -1.0, 0.0, 500),
+    target=recalc_fractal,
+    args=("julia2.png", -1.5, -1.5, 1.5, 1.5, -1.0, 0.0, 500),
 )
 t7 = Thread(
-    target=recalc_fractal, args=("julia3.png", -1.5, -1.5, 1.5, 1.5, 0.285, 0.01, 1000),
+    target=recalc_fractal,
+    args=("julia3.png", -1.5, -1.5, 1.5, 1.5, 0.285, 0.01, 1000),
 )
 t8 = Thread(
-    target=recalc_fractal, args=("julia4.png", -1.5, -1.5, 1.5, 1.5, -0.4, 0.6, 1000),
+    target=recalc_fractal,
+    args=("julia4.png", -1.5, -1.5, 1.5, 1.5, -0.4, 0.6, 1000),
 )
 t9 = Thread(
     target=recalc_fractal,
     args=("julia5.png", -1.5, -1.5, 1.5, 1.5, -0.835, -0.2321, 1000),
 )
 t10 = Thread(
-    target=recalc_fractal, args=("julia6.png", -1.5, -1.5, 1.5, 1.5, 0.4, 0.4, 1000),
+    target=recalc_fractal,
+    args=("julia6.png", -1.5, -1.5, 1.5, 1.5, 0.4, 0.4, 1000),
 )
 
 # spuštění všech vláken
