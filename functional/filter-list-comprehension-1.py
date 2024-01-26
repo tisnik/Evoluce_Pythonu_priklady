@@ -2,9 +2,11 @@
 # - generátorová notace nahrazující funkci vyššího řádu "filter"
 
 # vstupní zpráva
-message = "Lorem ipsum dolor sit amet, consectetur adipiscing " \
-          "elit, sed do eiusmod tempor incididunt ut labore et " \
-          "dolore magna aliqua"
+message = (
+    "Lorem ipsum dolor sit amet, consectetur adipiscing "
+    "elit, sed do eiusmod tempor incididunt ut labore et "
+    "dolore magna aliqua"
+)
 
 # rozdělení zprávy na jednotlivá slova
 words = message.split()
