@@ -21,12 +21,12 @@ def local_values(foo):
         # lokální funkce
         def w():
             print("funkce w")
+
         # vracíme lokální proměnnou - funkci
         return w
 
     # vracíme lokální proměnnou - funkci
     return z
-
 
 
 funkce = local_values(False)
