@@ -3,15 +3,16 @@
 
 
 def print_operation_params_and_return_val(name):
-
     def decorate(fn):
         """Transformace předané funkce."""
+
         def wrapper(x, y):
             """Nová funkce volající předanou funkci."""
             print(f"Arguments for computing {name}: x={x} y={y}")
             value = fn(x, y)
             print(f"Computed value: {value}")
             return value
+
         return wrapper
 
     # vrátit novou funkci
