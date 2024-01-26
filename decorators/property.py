@@ -1,6 +1,7 @@
 # Standardní operátor @property:
 # - volání metod nepřímo - přes přístup k vlastnosti objektu
 
+
 class Point:
     """Třída reprezentující bod v ploše."""
 
