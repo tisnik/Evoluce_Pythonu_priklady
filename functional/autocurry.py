@@ -6,7 +6,7 @@ from funcy import autocurry
 
 def pow(x, y):
     """Jednoduchá funkce se dvěma parametry."""
-    return x ** y
+    return x**y
 
 
 # autocurryfikace funkce pow
