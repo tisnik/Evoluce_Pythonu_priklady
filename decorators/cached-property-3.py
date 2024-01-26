@@ -10,7 +10,7 @@ from time import perf_counter
 
 
 class FibonacciNumber:
-    "Výpočet n-tého prvku Fibonnaciho posloupnosti."""
+    "Výpočet n-tého prvku Fibonnaciho posloupnosti." ""
 
     def __init__(self, n):
         """V konstruktoru si pouze zapamatujeme index prvku."""
@@ -27,7 +27,7 @@ class FibonacciNumber:
         """Vlastní výpočet n-tého prvku posloupnosti."""
         if n < 2:
             return n
-        return FibonacciNumber.compute(n-1) + FibonacciNumber.compute(n-2)
+        return FibonacciNumber.compute(n - 1) + FibonacciNumber.compute(n - 2)
 
 
 f = FibonacciNumber(40)
