@@ -20,7 +20,7 @@ def print_params_and_return_val(function):
 
 @print_params_and_return_val
 def add(a, b):
-    return a+b
+    return a + b
 
 
 # toto již není původní funkce!
