@@ -9,7 +9,7 @@ from functools import reduce
 n = range(0, 11)
 
 # vypočítat hodnoty faktoriálů
-factorials = map(lambda n: reduce(lambda a, b: a*b, range(1, n+1), 1), n)
+factorials = map(lambda n: reduce(lambda a, b: a * b, range(1, n + 1), 1), n)
 
 # převod na seznam, který lze snadno vytisknout
 print(list(factorials))
