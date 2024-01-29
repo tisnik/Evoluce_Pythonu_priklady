@@ -10,5 +10,5 @@ x = range(1, 11)
 print(x)
 
 # postupná "redukce" sekvence s akumulací mezivýsledků
-y = reduce(lambda a, b: a*b, x)
+y = reduce(lambda a, b: a * b, x)
 print(y)
