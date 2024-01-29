@@ -4,9 +4,9 @@
 # - (ekvivalence mezi True a 1 i False a 0)
 
 
-def add(a:int, b:int) -> int:
+def add(a: int, b: int) -> int:
     """Funkce s typovými anotacemi."""
-    return a+b
+    return a + b
 
 
 # zavolání funkce add s argumenty různých typů
