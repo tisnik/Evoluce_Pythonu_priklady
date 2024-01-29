@@ -5,7 +5,7 @@
 
 from typing import TypeVar
 
-T = TypeVar('T')
+T = TypeVar("T")
 
 
 def pair(first: T, second: T) -> tuple[T, T]:
