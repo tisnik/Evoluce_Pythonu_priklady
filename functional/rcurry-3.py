@@ -6,7 +6,7 @@ from funcy import rcurry
 
 def pow(x, y):
     """Výpočet x^y."""
-    return x ** y
+    return x**y
 
 
 # "zpětná" curryfikace funkce pow s využitím funkce rcurry
