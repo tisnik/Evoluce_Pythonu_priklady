@@ -6,9 +6,9 @@
 from typing import Union
 
 
-def add(a:Union[int, float], b:Union[int, float]) -> Union[int, float]:
+def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
     """Funkce s typovými anotacemi."""
-    return a+b
+    return a + b
 
 
 # zavolání funkce add s argumenty různých typů
