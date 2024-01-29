@@ -9,11 +9,11 @@ from operator import add, gt, lt, mul, pow
 def get_operator(symbol):
     """Na základě předaného symbolu nalezne a vrátí příslušnou funkci."""
     operators = {
-            "+": add,
-            "*": mul,
-            "^": pow,
-            "<": lt,
-            ">": gt,
+        "+": add,
+        "*": mul,
+        "^": pow,
+        "<": lt,
+        ">": gt,
     }
     return operators[symbol]
 
