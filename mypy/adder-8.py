@@ -7,7 +7,7 @@
 
 def add(a: int | float, b: int | float) -> int | float:
     """Funkce s typovými anotacemi."""
-    return a+b
+    return a + b
 
 
 # zavolání funkce add s argumenty různých typů
