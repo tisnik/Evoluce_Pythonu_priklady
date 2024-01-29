@@ -3,7 +3,7 @@
 # - zavolání této funkce pro argumenty typu bool a int
 
 
-def add(a:bool, b:bool) -> bool:
+def add(a: bool, b: bool) -> bool:
     """Funkce s typovými anotacemi."""
     return a and b
 
