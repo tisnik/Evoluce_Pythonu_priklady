@@ -3,12 +3,12 @@
 
 from typing import Generic, List, TypeVar
 
-T = TypeVar('T')
+T = TypeVar("T")
 
 
 class Collection(Generic[T]):
     def __init__(self) -> None:
-        self.collection : List[T] = []
+        self.collection: List[T] = []
 
     def append(self, item: T) -> None:
         self.collection.append(item)
