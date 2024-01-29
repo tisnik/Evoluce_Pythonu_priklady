@@ -2,7 +2,6 @@
 
 
 def partial(func, /, *args, **keywords):
-
     def newfunc(*fargs, **fkeywords):
         newkeywords = {**keywords, **fkeywords}
         return func(*args, *fargs, **newkeywords)
