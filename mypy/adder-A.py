@@ -8,19 +8,21 @@ from typing import Union, overload
 
 
 @overload
-def add(a: int, b: int) -> int: ...
+def add(a: int, b: int) -> int:
+    ...
 
 
 @overload
-def add(a: str, b: str) -> str: ...
+def add(a: str, b: str) -> str:
+    ...
 
 
-def add(a:Union[int, str], b:Union[int, str]) -> Union[int, str]:
+def add(a: Union[int, str], b: Union[int, str]) -> Union[int, str]:
     """Funkce s typovými anotacemi."""
     if isinstance(a, int) and isinstance(b, int):
-        return a+b
+        return a + b
     elif isinstance(a, str) and isinstance(b, str):
-        return a+b
+        return a + b
     else:
         raise TypeError("Mixing int and str is not supported!")
 
