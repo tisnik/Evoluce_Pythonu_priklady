@@ -4,4 +4,4 @@
 
 def add(a, b):
     """Funkce bez typových anotací."""
-    return a+b
+    return a + b
