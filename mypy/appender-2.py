@@ -3,5 +3,5 @@
 # - korektní řešení (z pohledu typového systému)
 
 
-def append(a:str, b:str) -> str:
-    return a.strip()+b.strip()
+def append(a: str, b: str) -> str:
+    return a.strip() + b.strip()
