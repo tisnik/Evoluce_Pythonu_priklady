@@ -1,9 +1,7 @@
 # Operátor "unpack" v Pythonu:
 # - výpis hodnot vytvářených s využitím operace unpack
 
-d = {"x": 1,
-     "y": 2,
-     "z": 3}
+d = {"x": 1, "y": 2, "z": 3}
 
 # rozbalení slovníku
 x = {**d, "a": 10, "b": 20}
