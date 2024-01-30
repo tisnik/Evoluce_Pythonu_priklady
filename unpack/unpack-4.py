@@ -5,7 +5,7 @@
 def add5(a, b, c, d, e):
     """Funkce akceptující pět parametrů."""
     print(f"Adding {a} + {b} + {c} + {d} + {e}")
-    return a+b+c+d+e
+    return a + b + c + d + e
 
 
 # různé varianty rozbalení řady vytvářené generátorem
