@@ -17,7 +17,7 @@ def A(m, n):
 # zjistit čas před výpočtem
 start = perf_counter()
 
-results = [result for m in range(4) for n in range(7) if (result := A(m, n)) %2 != 0]
+results = [result for m in range(4) for n in range(7) if (result := A(m, n)) % 2 != 0]
 
 print(results)
 
