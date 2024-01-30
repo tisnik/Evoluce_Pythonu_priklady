@@ -4,4 +4,4 @@
 
 from typing import List, Union
 
-lst: List[Union[int,str]] = [1, "foo", 42, "bar"]
+lst: List[Union[int, str]] = [1, "foo", 42, "bar"]
