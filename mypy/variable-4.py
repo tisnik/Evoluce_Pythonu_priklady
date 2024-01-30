@@ -4,5 +4,5 @@
 
 
 def funkce(param: float) -> int:
-    x: int = 1/param
+    x: int = 1 / param
     return x
