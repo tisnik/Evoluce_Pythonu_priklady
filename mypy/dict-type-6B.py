@@ -4,7 +4,7 @@
 # - u klíčů i hodnot je použit typ Union
 # - úprava pro Python 3.10
 
-d:dict[int | str, int | float | str] = {}
+d: dict[int | str, int | float | str] = {}
 
 d["foo"] = 1
 d["bar"] = 3.14
