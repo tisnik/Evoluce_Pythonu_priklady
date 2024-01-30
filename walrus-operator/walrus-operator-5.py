@@ -8,9 +8,9 @@ count = len(values)
 summ = sum(values)
 
 result = {
-        "count": count,
-        "sum": summ,
-        "mean": summ/count,
-        }
+    "count": count,
+    "sum": summ,
+    "mean": summ / count,
+}
 
 print(result)
