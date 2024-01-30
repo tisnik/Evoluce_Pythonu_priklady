@@ -4,7 +4,7 @@
 
 # funkce s jedním čistě pozičním parametrem
 def foo(x, /, y, z):
-    return x+y-z
+    return x + y - z
 
 
 # volání funkce s předáním argumentů
