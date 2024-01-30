@@ -9,6 +9,7 @@ from typing import List
 
 class Ovoce:
     """Třída, která je předkem tříd Hruska i Jablko."""
+
     pass
 
 
@@ -28,14 +29,14 @@ class Jablko(Ovoce):
         return "Jablko"
 
 
-def smichej(kosik : List[Ovoce]) -> None:
+def smichej(kosik: List[Ovoce]) -> None:
     """Do košíku se přidá jedna hruška a jedno jablko."""
     kosik.append(Hruska())
     kosik.append(Jablko())
 
 
 # košík, který může obsahovat hrušky i jablka
-kosik : List[Ovoce] = []
+kosik: List[Ovoce] = []
 
 smichej(kosik)
 
