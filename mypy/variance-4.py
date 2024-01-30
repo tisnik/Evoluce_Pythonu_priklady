@@ -9,6 +9,7 @@ from typing import Sequence
 
 class Ovoce:
     """Třída, která je předkem tříd Hruska i Jablko."""
+
     pass
 
 
@@ -28,13 +29,13 @@ class Jablko(Ovoce):
         return "Jablko"
 
 
-def tiskni(kosik : Sequence[Ovoce]) -> None:
+def tiskni(kosik: Sequence[Ovoce]) -> None:
     """Vytiskne obsah košíku s ovocem."""
     for ovoce in kosik:
         print(ovoce)
 
 
 # košík, který může obsahovat pouze hrušky
-kosik : Sequence[Hruska] = []
+kosik: Sequence[Hruska] = []
 
 tiskni(kosik)
