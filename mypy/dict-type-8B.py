@@ -4,7 +4,7 @@
 # - hodnoty mohou nabývat None
 # - úprava pro Python 3.10
 
-d:dict[str, float | None] = {}
+d: dict[str, float | None] = {}
 
 d["foo"] = 1
 d["bar"] = 3.14
