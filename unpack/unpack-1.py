@@ -6,7 +6,7 @@
 def add(x, y):
     """Funkce akceptující dva parametry."""
     print(f"Adding {x} + {y}")
-    return x+y
+    return x + y
 
 
 lst = [1, 2]
