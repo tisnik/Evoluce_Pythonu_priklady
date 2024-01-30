@@ -6,6 +6,7 @@ from typing import Callable
 
 class Ovoce:
     """Třída, která je předkem tříd Hruska i Jablko."""
+
     pass
 
 
@@ -25,7 +26,7 @@ class Jablko(Ovoce):
         return "Jablko"
 
 
-def utrhni(f:Callable[[], Ovoce]) -> Ovoce:
+def utrhni(f: Callable[[], Ovoce]) -> Ovoce:
     """Zavolá funkci, která získá jeden kus ovoce a vrátí ho."""
     ovoce = f()
     return ovoce
