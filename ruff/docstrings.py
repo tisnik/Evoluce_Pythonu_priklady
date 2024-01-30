@@ -1,5 +1,6 @@
 """Ukázka přetížení operátoru @."""
 
+
 class Test:
     """Třída s přetíženým operátorem @."""
 
