@@ -1,5 +1,4 @@
 class Test:
-
     def __init__(self, x):
         self.value = str(x)
 
