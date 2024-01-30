@@ -5,7 +5,7 @@
 
 # funkce s pozičními parametry
 def foo(x, y, z):
-    return x+y-z
+    return x + y - z
 
 
 # explicitní specifikace parametrů jménem
