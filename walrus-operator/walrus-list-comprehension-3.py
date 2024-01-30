@@ -16,7 +16,7 @@ def A(m, n):
 
 start = perf_counter()
 
-results = [A(m, n) for m in range(0, 4) for n in range(0, 7) if A(m, n) %2 != 0]
+results = [A(m, n) for m in range(0, 4) for n in range(0, 7) if A(m, n) % 2 != 0]
 
 print(results)
 
